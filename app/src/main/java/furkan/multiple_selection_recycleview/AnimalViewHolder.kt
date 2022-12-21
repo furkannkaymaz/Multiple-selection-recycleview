@@ -8,7 +8,6 @@ import furkan.multiple_selection_recycleview.databinding.ItemAnimalBinding
 
 class AnimalViewHolder(private var binding: ItemAnimalBinding) : RecyclerView.ViewHolder(binding.root) {
 
-    @SuppressLint("ResourceAsColor")
     fun bind(data: AnimalModel, onItemClick: ((AnimalModel) -> Unit)?) {
         with(binding) {
 
